@@ -1,0 +1,79 @@
+.head {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.head .logo img {
+    width: 150px;
+}
+
+header {
+    background-color: rgb(93, 42, 19);
+    color: #fff;
+    font-size: 1.2em;
+    
+}
+
+header li {
+    margin: 30px;
+    transition: 0.5s;
+}
+
+header li a {
+    transition: 0.5s;
+    color: #fff;
+}
+
+header li a:hover {
+    color: rgb(95, 165, 42);
+    cursor: pointer;
+}
+
+.barIco {
+    font-size: 25px;
+   background: none;
+    color: #fff;
+    display: none;
+    border: none;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .head{
+        display: none;
+    }
+    .header  .icon {
+        display: none;
+    }
+    header .flex {
+        display: none;
+    }
+    .barIco {
+        display: block;
+    }
+    header .navbar {
+
+        position: absolute;
+        display: block;
+        background-color: #5c2a0f;
+        left: 0;
+        top: 10% !important;
+        width: 100%;
+        height: 50vh;
+        z-index: 5;
+        padding: 50px;
+        
+
+    }
+
+    header ul li{
+        /*display: flex;
+        flex-direction: column;
+        */
+        margin-bottom: 30px;
+
+    }
+    
+}
+
